@@ -1,0 +1,12 @@
+run:
+  timeout: 30m
+linters:
+  enable:
+    - revive
+issues:
+  exclude-use-default: false
+  exclude-rules:
+    # Allow unused functions because a lot of this is manual code and helper functions
+    - linters:
+        - unused
+      text: "func `"
