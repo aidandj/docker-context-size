@@ -1,8 +1,6 @@
 module github.com/artificialinc/docker-context-size
 
-go 1.23.0
-
-toolchain go1.23.11
+go 1.24.0
 
 require (
 	github.com/moby/go-archive v0.1.0
